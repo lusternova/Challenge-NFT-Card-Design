@@ -1,0 +1,72 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+img {
+  width: 220px;
+  border-radius: 8%;
+}
+
+hr {
+  color: hsl(215, 32%, 27%);
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 0 8px 16px 0;
+  width: 220px;
+  height: 420px;
+  border-radius: 3%;
+  padding: 15px;
+  position: absolute;
+  left: 40%;
+  top: 15%;
+}
+
+.title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  margin: 18px 0;
+}
+
+.para {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: hsl(215, 51%, 70%);
+}
+
+.price {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: hsl(178, 100%, 50%);
+  display: inline-block;
+  margin-top: 0;
+}
+
+.time {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: hsl(215, 51%, 70%);
+  display: inline;
+  text-align: right;
+  margin-top: 0;
+  position: absolute;
+  right: 15px;
+}
+
+.creater {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300px;
+  font-size: 12px;
+  position: absolute;
+  left: 30%;
+  top: 91%;
+  transform: translate(-10%, -10%);
+  margin-top: 0;
+  display: inline;
+  color: hsl(215, 51%, 70%);
+}
